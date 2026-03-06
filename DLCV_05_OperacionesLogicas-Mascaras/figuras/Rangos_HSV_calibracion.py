@@ -8,7 +8,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load image
-img_path = os.path.join(BASE_DIR, "image.png")
+img_path = os.path.join(BASE_DIR, r"C:\Users\Chava\Documents\Deep-Learning-Coursework\DLCV_07_Manipulacion-Videos\capa_frame.jpeg")
 image = cv2.imread(img_path)
 
 image = cv2.resize(image, (609,400), interpolation = cv2.INTER_AREA)
